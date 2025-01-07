@@ -1,0 +1,74 @@
+/* Styling for the expertise section */
+#expertise {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light Alice Blue background for the section */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#expertise h2 {
+    font-size: 2.5em; /* Larger font size for section heading */
+    color: #005f73; /* Dark teal color for headings */
+    margin-bottom: 20px;
+}
+
+.expertise-category {
+    background-color: #ffffff; /* White background for each expertise item */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-category h3 {
+    font-size: 1.8em; /* Font size for expertise headings */
+    color: #0077b6; /* Blue color for expertise headings */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.expertise-category p {
+    line-height: 1.6;
+    color: #333333; /* Dark grey text color */
+}
+
+.expertise-category p strong {
+    color: #005f73; /* Emphasize institution, organization, and location text */
+}
+
+.expertise-category a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.expertise-category a.leet-code {
+    color: #f14e4e; /* Red color for LeetCode */
+}
+
+.expertise-category a.geeks-for-geeks {
+    color: #48a14d; /* Green color for GeeksForGeeks */
+}
+
+.expertise-category a.hacker-rank {
+    color: #00b8d9; /* Turquoise color for HackerRank */
+}
+
+.expertise-category a.web-app {
+    color: #ff7f50; /* Coral color for the Web App */
+}
+
+.expertise-category a:hover {
+    text-decoration: underline;
+}
+
+/* Added hover effects and color consistency */
+.expertise-category h3:hover {
+    color: #005f73; /* Dark teal on hover for headings */
+}
+
+/* Additional spacing for better readability */
+.expertise-category p {
+    margin-bottom: 10px; /* Adds spacing between paragraphs */
+}

@@ -1,0 +1,69 @@
+/* Styling for the navigation bar */
+#navbar {
+    background-color: #0077b6; /* Dark teal background */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a slight 3D effect */
+    border-radius: 20px; /* Rounded corners for the navbar */
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.navbar-left a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 1.5em; /* Larger text for the "Portfolio" link */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 20px; /* Rounded corners for the link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+}
+
+.navbar-right a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 1.2em; /* Slightly smaller text for other links */
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 20px; /* Rounded corners for the links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    margin-left: 15px; /* Space between menu items */
+}
+
+.navbar-left a:hover, .navbar-right a:hover, .navbar-left a:focus, .navbar-right a:focus {
+    background-color: #005f73; /* Darker teal background on hover */
+    color: #ffffff; /* Ensure text remains white on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start;
+    }
+
+    .navbar-left, .navbar-right {
+        width: 100%; /* Make both sections full width */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .navbar-left {
+        margin-bottom: 10px; /* Space between sections */
+    }
+
+    .navbar-right a {
+        margin: 5px 0; /* Space between items in column layout */
+    }
+}

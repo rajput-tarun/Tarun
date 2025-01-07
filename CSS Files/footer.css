@@ -1,0 +1,82 @@
+/* Styling for the footer section */
+#footer {
+    background-color: #005f73; /* Dark teal background color */
+    color: #ffffff; /* White text color */
+    padding: 20px 10px; /* Reduced padding for a smaller height */
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px; /* Reduced padding for better alignment */
+    border-bottom: 2px solid #ffffff; /* Added border for separation */
+}
+
+.footer-contact, .footer-social {
+    flex: 1;
+    margin: 0 10px; /* Adjusted margin for better spacing */
+}
+
+.footer-contact h3 {
+    font-size: 1.6em; /* Slightly smaller font size */
+    margin-bottom: 10px; /* Reduced margin */
+    color: #ffffff; /* White color for headings */
+}
+
+.footer-contact p {
+    margin: 3px 0; /* Reduced margin */
+    line-height: 1.4; /* Slightly tighter line-height */
+}
+
+.footer-contact strong {
+    color: #ffffff; /* Ensure strong elements are white */
+    font-weight: bold; /* Make labels stand out */
+}
+
+.footer-contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social h3 {
+    font-size: 1.6em; /* Slightly smaller font size */
+    margin-bottom: 10px; /* Reduced margin */
+    color: #ffffff; /* White color for heading */
+}
+
+.footer-social .social-links {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    gap: 15px; /* Slightly reduced gap between social links */
+}
+
+.footer-social .social-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em; /* Slightly smaller font size */
+}
+
+.footer-social .social-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px; /* Reduced margin-top for closer spacing */
+    font-size: 1em; /* Slightly smaller font size */
+}
+
+.footer-bottom .heart {
+    color: #ff4d4d; /* Red color for heart */
+}

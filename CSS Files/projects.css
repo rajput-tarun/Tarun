@@ -1,0 +1,54 @@
+/* Styling for the Projects Section */
+#projects {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light grey background for the section */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    color: #005f73;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.project-title {
+    font-size: 1.5em;
+    color: #0077b6; /* Color for project titles */
+    margin-top: 0;
+}
+
+.project-duration,
+.project-supervisor {
+    font-size: 1.1em;
+    color: #000000; /* Black color for duration and supervisor */
+}
+
+p strong {
+    color: #005f73; /* Dark teal color for labels */
+}
+
+
+
